@@ -1,0 +1,30 @@
+{{ "<!-- Banner -->" | safeHTML}}
+    <section class="major banner bannerpkgs" style="margin-top:73px;">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ .Site.Params.BannerPkgs.title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ .Site.Params.BannerPkgs.subtitle }}</p>
+                <ul class="actions">
+                    <li><a href="#r-packages" class="button next scrolly">{{ .Site.Params.BannerPkgs.buttonText }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        <section id="two">
+        <div class="inner">
+            <header class="major">
+                <h2>Selected R packages</h2>
+            </header>
+            <p align="justify">Here are some R packages I've made for a broad range of purposes.</p>
+            <ul>
+              <li><code>rockchain</code>: A package for blockchain integration. <code>rockchain</code> interfaces with select APIs for accessing Bitcoin wallet data and general cryptocurrency market cap data.</li>
+              <li><code>memery</code>: A fun package for combining statistical graphs with attention-grabbing memes. It supports static memes and animated gifs. Perfect for data nerds.</li>
+              <li><code>tabr</code>: A package for programmatic authoring of guitar tablature in R. <code>tabr</code> connects to the open source <code>LilyPond</code> sheet music engraving program to produce high quality tabs and sheet music.</li>
+              <li><code>rvtable</code>: A package to assist with chaining big data through multiple stages of an analysis with minimal overhead by modeling empirically estimated probability density functions to robustly reduce large samples with minimal, controlled information loss. <code>rvtable</code> stores continuous densities in tidy tibble data frames.</li>
+              <li><code>mapmate</code>: A package to assist with simple globe animations. This package is primarily an encapsulation of small, reproducible educational examples based on an approach I've used in the past for globe animations. It is not meant for heavy, generalized production.</li>
+              <li>SNAPverse: The SNAP R package ecosystem. This is a collection of related R packages that combine to support various aspects of data access, manipulation, graphing, analysis and presentation of publicly available datasets produced by the Scenarios Network for Alaska and Arctic Planning at the Univeristy of Alaska Fairbanks.</li>
+            </ul>
+        </div>
+    </section>

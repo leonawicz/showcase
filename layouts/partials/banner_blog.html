@@ -1,0 +1,14 @@
+{{ "<!-- Banner -->" | safeHTML}}
+    <section class="major banner bannerblog" style="margin-top:73px;">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ .Site.Params.BannerBlog.title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ .Site.Params.BannerBlog.subtitle }}</p>
+				<ul class="actions">
+					<li><a href="{{ .Site.Params.BannerBlog.url | absURL}}" class="button next">{{ .Site.Params.BannerBlog.buttonText }}</a></li>
+				</ul>
+            </div>
+        </div>
+    </section>

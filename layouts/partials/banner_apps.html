@@ -1,0 +1,31 @@
+{{ "<!-- Banner -->" | safeHTML}}
+    <section class="major banner bannerapps">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ .Site.Params.BannerApps.title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ .Site.Params.BannerApps.subtitle }}</p>
+                <ul class="actions">
+                    <li><a href="#software-applications" class="button next scrolly">{{ .Site.Params.BannerApps.buttonText }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="two">
+        <div class="inner">
+            <header class="major">
+                <h2>Example Shiny apps</h2>
+            </header>
+            <p align="justify">One of my favorite things to do with R is create apps using <code>Shiny</code> that showcase whatever I just used R to accomplish. It's one of the best ways for sharing and communicating not only the results of statistical analysis but also the analysis itself. It allows others to become an active participant in the analytical workflow, reproducing parts of the process in their browser interactively, even if they don't have a quantitative background or know any programming. Here are a few example apps:</p>
+            <ul>
+              <li>Alaska and western Canada historical and projected climate analysis. This app examines observed data and climate model output for a number of spatial domains and time periods. It uses complete spatial samples from which any statistic can be computed, rather than offering users only pre-aggregated data. The datset backend is powered by Amazon Web Services. It supports millions of datasets, each of which can be further manipulated by the user including on the fly calculation of marginal distributions. The app also offers dynamic report generation based on custom data selections.</li>
+              <li>Wildfire model output. Results from Alaska wildfire modeling simulations are available in interactive form, including the ability to interact with plots directly, for example in order to subset data points and update regression models.</li>
+              <li>Interactive documents are useful for embedding Shiny widgets in regular web pages. Shiny Server required.</li>
+              <li>The Northwest Territories climate projections app combines access to annual time series data at point locations with spatially explicit regional raster data for decadal averages. The entire background of the app is an interactive map.</li>
+              <li>AR5/CMIP5 climate model evaluation. Comprehensive, detailed results from a statistical analysis comparing global GCM performance over Alaska and other spatial domains showcases the relative model performance and selection criteria resulting in the composite GCM used for Alaska-centric analyses at SNAP.</li>
+              <li>Community-level climate projections for thousands of locations throughout Alaska and western Canada are accessible by interactive menu or map. For each location the decadal future temperature and preciptation outlook is shown.</li>
+            </ul>
+        </div>
+    </section>
+    

@@ -1,0 +1,12 @@
+{{ "<!-- Header -->" | safeHTML }}
+    <section id="r-packages" class="tiles2">
+        {{ range .Site.Params.TilesPkgs.showcase }}
+        <article style="padding-left:40px;">
+            <a href="{{ .url | absURL }}" class="link2"><img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" width=173 height=200 style="margin-right:20px;" /></a>
+            <header class="major">
+                <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
+                <p>{{ .subtitle }}</p>
+            </header>
+        </article>
+        {{ end }}
+    </section>

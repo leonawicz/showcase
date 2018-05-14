@@ -1,0 +1,28 @@
+{{ "<!-- Banner -->" | safeHTML}}
+    <section class="major banner bannervis" style="margin-top:73px;">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ .Site.Params.BannerVis.title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ .Site.Params.BannerVis.subtitle }}</p>
+                <ul class="actions">
+                    <li><a href="#visualizations" class="button next scrolly">{{ .Site.Params.BannerVis.buttonText }}</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="two">
+        <div class="inner">
+            <header class="major">
+                <h2>Static and dynamic data visualizations</h2>
+            </header>
+            <p align="justify">I enjoy producing data visualizations ranging from simple graphs to complex animations and videos. Data and the  results of data analysis should be presented in clear, simple forms. This usually means static graphics with minimal ink, little or no color, among handful of other graphing best practices. But there are also times when it is important to grab an audience's attention. Here are some example animations I've created based on spatio-temporal datasets.</p>
+            <ul>
+              <li>Top left: Web traffic over a given time period. Perhaps most appropriately summarized using a table of aggregate values. A simple graph would definitely be more than enough to clearly convey the pertinent information. But web traffic is boring and such a table or plot will not be attention-grabbing. To achieve the latter, I combined 3D and movement: moving great circle arc segments to convey directional connections between geolocations, an orthographic projection for the globe view rather than a flat map, and finally Earth rotation and a changing observer perspective.</li>
+              <li>Top right: Similar to the previous network animation, but this time a flat map so that all connections can be seen at once. Fewer types of moving parts, but many more network connections overall. Instead of national boundary polygons, I used city points to infer continents and population density.</li>
+              <li>Bottom left: This animation is a demonstration of animating semi-random pathway traversal along the grid cell borders of a rasterized dataset. This is another technique I like to apply to make othwerwise-bland animations involving change over time and other transitions in raster maps more eye-catching.</li>
+              <li>Bottom right: In this 3D Earth animation I focused on spatially explicit change over time in historical and projected climate anomalies while overlaying a time series growth animation from left to right representing the global average. A useful way to share both spatial information and aggregate trends that is still meaningful and informative even though the focus is on grabbing viewers' attention by not falling back on the same old recycled stale maps and charts that put people to sleep.</li>
+            </ul>
+        </div>
+    </section>
