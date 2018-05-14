@@ -1,0 +1,278 @@
+# Site settings
+baseURL = "https://leonawicz.github.io/"
+languageCode = "en-us"
+title = "Matthew Leonawicz"
+theme = "forty"
+copyright = "&copy; Matthew Leonawicz"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-46129458-3"
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+publishDir = "docs"
+relativeURLs = true
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Matthew Leonawicz"
+  description = "Statistician | R Developer"
+
+  # Link custom assets relative to /static
+  custom_css = ["css/styles.css"]
+  #custom_js  = ["js/imgcomp.js"]
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "Matthew Leonawicz"
+    subtitle = "Showcase"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    [[params.navigation.links]]
+      name = "Blog"
+      url = "https://leonawicz.github.io/blog/"
+
+    [[params.navigation.links]]
+      name = "Main Website"
+      url = "https://leonawicz.github.io/"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+  # Banner section
+  [params.bannerapps]
+    title = "Software applications"
+    subtitle = "Highlighted R Shiny web applications."
+    buttonText = "Explore"
+    
+  # Tiles Section
+  [params.tilesapps]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tilesapps.showcase]]
+      title = "Climate analysis"
+      subtitle = "Projected spatial distributions"
+      image = "apps/climdist_comp.gif"
+      url = "https://uasnap.shinyapps.io/climdist/"
+
+    [[params.tilesapps.showcase]]
+      title = "Wildfire modeling"
+      subtitle = "Alaska wildfire model outputs"
+      image = "apps/jfsp_comp.gif"
+      url = "https://uasnap.shinyapps.io/jfsp/"
+
+    [[params.tilesapps.showcase]]
+      title = "Interactive documents"
+      subtitle = "Embedded aplications"
+      image = "apps/idoc_comp.gif"
+      url = "https://uasnap.shinyapps.io/ex_leaflet/"
+
+    [[params.tilesapps.showcase]]
+      title = "Northwest Territories"
+      subtitle = "Projected spatial climate maps"
+      image = "apps/nt_comp.gif"
+      url = "https://uasnap.shinyapps.io/nwtapp/"
+
+    [[params.tilesapps.showcase]]
+      title = "Climate model evaluation"
+      subtitle = "CMIP5 GCM model selection"
+      image = "apps/ar5eval_comp.gif"
+      url = "https://uasnap.shinyapps.io/ar5eval/"
+
+    [[params.tilesapps.showcase]]
+      title = "Alaska/Canada local climate"
+      subtitle = "Community-level climate projections"
+      image = "apps/charts_comp.gif"
+      url = "https://uasnap.shinyapps.io/cc4liteFinal/"
+    # You can make more showcases by copy and pasting the code above
+
+  # Banner section
+  [params.bannerpkgs]
+    title = "R packages"
+    subtitle = "Highlighted R packages."
+    buttonText = "Explore"
+    
+  [params.tilespkgs]
+    enable = true
+
+    [[params.tilespkgs.showcase]]
+      title = "rockchain"
+      subtitle = "Blockchain integration"
+      image = "pkgs/rockchain.png"
+      url = "https://leonawicz.github.io/rockchain/"
+
+    [[params.tilespkgs.showcase]]
+      title = "memery"
+      subtitle = "Graphs and memes"
+      image = "pkgs/memery.png"
+      url = "https://leonawicz.github.io/memery/"
+
+    [[params.tilespkgs.showcase]]
+      title = "tabr"
+      subtitle = "Guitar tablature with R"
+      image = "pkgs/tabr.png"
+      url = "https://leonawicz.github.io/tabr/"
+
+    [[params.tilespkgs.showcase]]
+      title = "rvtable"
+      subtitle = "Continuous pdf tables"
+      image = "pkgs/rvtable.png"
+      url = "https://leonawicz.github.io/rvtable/"
+      
+    [[params.tilespkgs.showcase]]
+      title = "mapmate"
+      subtitle = "3D globe map animations"
+      image = "pkgs/mapmate.png"
+      url = "https://leonawicz.github.io/mapmate/"
+      
+    [[params.tilespkgs.showcase]]
+      title = "SNAPverse"
+      subtitle = "SNAPverse R package ecosystem"
+      image = "pkgs/snap-small.png"
+      url = "https://leonawicz.github.io/sv.html"
+    
+  # Banner section
+  [params.bannervis]
+    title = "Data visualisation"
+    subtitle = "Example data-driven animations."
+    buttonText = "Explore"
+    
+  [params.tilesvis]
+    enable = true
+
+    [[params.tilesvis.showcase]]
+      title = "Web traffic"
+      subtitle = "SNAP Shiny Apps global user traffic"
+      image = "vis/globe1_comp.gif"
+      url = "https://www.youtube.com/watch?v=uQYR91qixgo"
+
+    [[params.tilesvis.showcase]]
+      title = "Geographic networks"
+      subtitle = "High density great circle arcs"
+      image = "vis/map1_comp.gif"
+      url = "https://www.youtube.com/watch?v=yoyIUMvIP3Q"
+
+    [[params.tilesvis.showcase]]
+      title = "Animated cell borders"
+      subtitle = "Rasterized grid cell pathways"
+      image = "vis/grid1_comp.gif"
+      url = "https://www.youtube.com/watch?v=LMm2FqjdBBY"
+      
+    [[params.tilesvis.showcase]]
+      title = "Animated global warming"
+      subtitle = "Spatially explicit projected global temperature anomalies"
+      image = "vis/globe3_comp.gif"
+      url = "https://www.youtube.com/watch?v=xhqEkyJDBho"
+
+  # Banner section
+  [params.bannerblog]
+    title = "Blog"
+    subtitle = "Even more about statistics, R programming, package development, Shiny apps and data visualization." 
+    buttonText = "Visit"
+    url = "https://leonawicz.github.io/blog/"
+    
+  # Contact section
+  [params.contact]
+    enable = false
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "mfleonawicz@alaska.edu"
+
+    [[params.contact.phone]]
+    #title = "Phone"
+    #phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    title = "Address"
+    #street = "Street"
+    city = "Denver, Colorado"
+    country = "USA"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Matthew Leonawicz"
+
+    # Uses font awesome icons
+    [[params.footer.social]]
+      icon = "fa-github"
+      url  = "https://github.com/leonawicz"
+      label = "GitHub"
+    
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      url = "https://twitter.com/leonawicz"
+      
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      url = "https://www.linkedin.com/in/leonawicz"
+    
+    [[params.footer.social]]
+      icon = "fa-youtube"
+      url = "https://www.youtube.com/user/StatisticsWithR"
+      
+    [[params.footer.social]]
+      icon = "fa-google-plus"
+      url = "https://plus.google.com/+StatisticsWithR/posts"
+      
+    [[params.footer.social]]
+      icon = "fa-rss"
+      url  = "https://leonawicz.github.io/blog/index.xml"
+      
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      url = "mailto:mfleonawicz@alaska.edu"
+      
+    [[params.footer.quicklinks]]
+      text = ""
+      url= "https://leonawicz.github.io/"
+      alt = "Homepage"
+      
