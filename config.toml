@@ -125,6 +125,18 @@ relativeURLs = true
     enable = true
 
     [[params.tilespkgs.showcase]]
+      title = "epubr"
+      subtitle = "Read EPUB files"
+      image = "pkgs/epubr.png"
+      url = "https://leonawicz.github.io/epubr/"
+
+    [[params.tilespkgs.showcase]]
+      title = "rtrek"
+      subtitle = "All things Star Trek"
+      image = "pkgs/rtrek-small.png"
+      url = "https://leonawicz.github.io/rtrek/"
+      
+    [[params.tilespkgs.showcase]]
       title = "rockchain"
       subtitle = "Blockchain integration"
       image = "pkgs/rockchain.png"
