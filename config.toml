@@ -174,7 +174,7 @@ relativeURLs = true
     
   # Banner section
   [params.bannervis]
-    title = "Data visualisation"
+    title = "Data visualization"
     subtitle = "Example data-driven animations."
     buttonText = "Explore"
     
