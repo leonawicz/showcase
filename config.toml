@@ -131,10 +131,22 @@ relativeURLs = true
       url = "https://leonawicz.github.io/epubr/"
 
     [[params.tilespkgs.showcase]]
+      title = "tiler"
+      subtitle = "Create map tiles"
+      image = "pkgs/tiler.png"
+      url = "https://leonawicz.github.io/tiler/"
+      
+    [[params.tilespkgs.showcase]]
       title = "rtrek"
       subtitle = "All things Star Trek"
       image = "pkgs/rtrek-small.png"
       url = "https://leonawicz.github.io/rtrek/"
+      
+    [[params.tilespkgs.showcase]]
+      title = "trekfont"
+      subtitle = "Star Trek fonts"
+      image = "pkgs/trekfont.png"
+      url = "https://leonawicz.github.io/trekfont/"
       
     [[params.tilespkgs.showcase]]
       title = "rockchain"

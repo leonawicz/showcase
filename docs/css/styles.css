@@ -390,34 +390,42 @@ article:hover > .img2 {
 	opacity: 0;
 }
 
-.tiles2 article:nth-child(8n - 7):before {
-	background-color: rgba(0, 0, 0, 0.75);
+.tiles2 article:nth-child(10n - 9):before {
+	background-color: rgba(127, 127, 127, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 6):before {
+.tiles2 article:nth-child(10n - 8):before {
+	background-color: rgba(255, 108, 0, 0.75);
+}
+
+.tiles2 article:nth-child(10n - 7):before {
 	background-color: rgba(0, 16, 48, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 5):before {
+.tiles2 article:nth-child(10n - 6):before {
+	background-color: rgba(0, 191, 255, 0.75);
+}
+
+.tiles2 article:nth-child(10n - 5):before {
 	background-color: rgba(84, 255, 149, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 4):before {
+.tiles2 article:nth-child(10n - 4):before {
 	background-color: rgba(157, 34, 240, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 3):before {
+.tiles2 article:nth-child(10n - 3):before {
 	background-color: rgba( 255, 48, 48, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 2):before {
+.tiles2 article:nth-child(10n - 2):before {
 	background-color: rgba( 255, 222, 173, 0.75);
 }
 
-.tiles2 article:nth-child(8n - 1):before {
+.tiles2 article:nth-child(10n - 1):before {
 	background-color: rgba( 65, 110, 148, 0.75);
 }
 
-.tiles2 article:nth-child(8n):before {
+.tiles2 article:nth-child(10n):before {
 	background-color: rgba( 149, 166, 58, 0.75);
 }
