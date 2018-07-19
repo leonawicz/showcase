@@ -128,7 +128,7 @@ relativeURLs = true
       title = "epubr"
       subtitle = "Read EPUB files"
       image = "pkgs/epubr.png"
-      url = "https://leonawicz.github.io/epubr/"
+      url = "https://ropensci.github.io/epubr/"
 
     [[params.tilespkgs.showcase]]
       title = "tiler"
