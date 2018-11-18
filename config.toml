@@ -134,7 +134,7 @@ relativeURLs = true
       title = "tiler"
       subtitle = "Create map tiles"
       image = "pkgs/tiler.png"
-      url = "https://leonawicz.github.io/tiler/"
+      url = "https://ropensci.github.io/tiler/"
       
     [[params.tilespkgs.showcase]]
       title = "rtrek"
